@@ -9,28 +9,33 @@
 
 //object literals
 
-const mySym=Symbol("key1")
-const jsuser={
-    Name:"archna",
-    age:27,
-    [mySym]:"mykey1",
-    location:"archa@gmail.com",
-    isLoggedIn:false,
-    lastLoginDays:["Monday","sunday"]
-}
-console.log(typeof jsuser.mySym)
-console.log(jsuser[mySym])
-console.log(typeof jsuser[mySym])
+// const mySym=Symbol("key1")
+// const jsuser={
+//     Name:"archna",
+//     age:27,
+//     [mySym]:"mykey1",
+//     location:"archa@gmail.com",
+//     isLoggedIn:false,
+//     lastLoginDays:["Monday","sunday"]
+// }
+// console.log(typeof jsuser.mySym)
+// console.log(jsuser[mySym])
+// console.log(typeof jsuser[mySym])
 
-jsuser.Name="maurya"
-console.log(jsuser)
+// jsuser.Name="maurya"
+// console.log(jsuser)
 
-jsuser.greeting=function(){
-    console.log("Hello JS user")
+// jsuser.greeting=function(){
+//     console.log("Hello JS user")
 
-}
-jsuser.greetingTwo=function(){
-    console.log(`Hello JS user,${this.Name}`)
-}
-console.log(jsuser.greeting());
-console.log(jsuser.greetingTwo());
+// }
+// jsuser.greetingTwo=function(){
+//     console.log(`Hello JS user,${this.Name}`)
+// }
+// console.log(jsuser.greeting());
+// console.log(jsuser.greetingTwo());
+
+
+
+
+
