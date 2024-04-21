@@ -36,3 +36,14 @@ console.log(typeof myobj);
 //     console.log("heloo")
 // }
 //function hi fun hi   return krta hai acutually me mana jata hai fun obj
+
+
+
+//+++++++++++++++++++++Memory+++++++++++++
+
+//stack(primitive) and heap memory(non-primitive)
+let myyoutub="arcvbnm"
+let anothemy=myyoutub
+anothemy="sdfghjkl"
+console.log(anothemy)
+console.log(myyoutub)

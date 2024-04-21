@@ -9,6 +9,9 @@ if(true){
 const b=30
 
    console.log("inner",a);
+   function newfn(){
+
+   }
 
 }
 console.log(a);
